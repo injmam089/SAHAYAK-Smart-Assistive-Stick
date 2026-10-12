@@ -1,0 +1,58 @@
+﻿# ==============================
+# SAHAYAK - Git Ignore
+# ==============================
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.env.local
+*.env.production
+
+# Java / Spring Boot
+backend/target/
+**/target/
+*.class
+*.jar
+*.war
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/pubspec.lock
+
+# PlatformIO / ESP32
+firmware/.pio/
+firmware/.vscode/
+firmware/.pioenvs/
+firmware/.clangd/
+
+# Build / generated output
+dist/
+build/
+out/
+*.log
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
